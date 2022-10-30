@@ -2,7 +2,7 @@
 
 namespace io {
 	void StreamOutput<Hex>::output(std::ostream &stream, const Hex &object) {
-		std::cout << std::hex << object.num;
+		std::cout << std::hex << object.num << std::dec;
 	};
 	
 	void StreamOutput<Dec>::output(std::ostream &stream, const Dec &object) {
@@ -10,6 +10,6 @@ namespace io {
 	};
 	
 	void StreamOutput<Oct>::output(std::ostream &stream, const Oct &object) {
-		std::cout << std::oct << object.num;
+		std::cout << std::oct << object.num << std::dec;
 	};
 }

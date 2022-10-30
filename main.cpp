@@ -30,7 +30,7 @@ static void printVectorString(std::ostream &stream, const std::vector<std::strin
 
 int main() {
 	int arr[]{5, 7, 9};
-	io::printLn("asgafj", 12749, 8231.0f, io::array(arr), io::Hex{64});
+	io::printLn("asgafj", 12749, 8231.0f, io::array(arr), io::Hex{1244});
 	io::Output<std::vector<std::string>>::output = printVectorString;
 	io::printLn(std::vector<std::string>{"asfg", "ashd", "asfhkaj"});
 	std::cout << io::Output<A>{A{10, 15}};
